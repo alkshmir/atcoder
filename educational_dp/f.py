@@ -1,6 +1,3 @@
-from re import X
-
-
 s = input()
 t = input()
 
