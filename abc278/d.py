@@ -5,19 +5,21 @@ query = []
 for _ in range(Q):
     query.append([int(s) for s in input().split()])
 
-start = None
-offset = [0 for _ in range(N)]
+offset = None
+drift = [0 for _ in range(N)]
+dirty = []
 for q in query:
     if q[0] == 1:
-        start = q[1]
+        offset = q[1]
+        for d in dirty:
+            drift[d] = 0
+        dirty = []
     elif q[0] == 2:
-        if start is not None:
-            A[q[1]] = start + q[2]
-            
-        else:
-            A[q[1]] += q[2]
+        drift[q[1]-1] += q[2]
+        dirty.append(q[1]-1)
     elif q[0] == 3:
-        if dirty[q[1]]:
-            print(A[q[1]])
+        # A[q[1]]の値が正しいとき
+        if offset is not None:
+            print(drift[q[1]-1] + offset)
         else:
-            print(A[q[1]] + start)
+            print(A[q[1]-1] + drift[q[1]-1])

@@ -112,3 +112,51 @@ for t, a, b in zip(T, A, B):
         else:
             print("No")
 ```
+
+## d問題
+どうしても$O(NQ)$の解法しか思いつかなかったけど、「値が変わっているところ」だけ更新すれば良いということに気付かなかった。
+
+これはTLE(入力部分は省略)
+```python
+offset = None
+drift = [0 for _ in range(N)]
+for q in query:
+    if q[0] == 1:
+        offset = q[1]
+        drift = [0 for _ in range(N)]
+ 
+    elif q[0] == 2:
+        drift[q[1]-1] += q[2]
+    elif q[0] == 3:
+        # A[q[1]]の値が正しいとき
+        if offset is not None:
+            print(drift[q[1]-1] + offset)
+        else:
+            print(A[q[1]-1] + drift[q[1]-1])
+```
+これはAC(入力部分は省略)
+```python
+offset = None
+drift = [0 for _ in range(N)]
+dirty = []
+for q in query:
+    if q[0] == 1:
+        offset = q[1]
+        for d in dirty:
+            drift[d] = 0
+        dirty = []
+    elif q[0] == 2:
+        drift[q[1]-1] += q[2]
+        dirty.append(q[1]-1)
+    elif q[0] == 3:
+        # A[q[1]]の値が正しいとき
+        if offset is not None:
+            print(drift[q[1]-1] + offset)
+        else:
+            print(A[q[1]-1] + drift[q[1]-1])
+```
+
+一つ目の回答では`drift = [0 for _ in range(N)]`となっていてここが$O(N)$である。
+`drift`が0以外になっている箇所は直前の代入からの2番目のクエリの個数を超えないので、全部0に更新するのは無駄ということ。
+
+かしこいなぁ
