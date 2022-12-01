@@ -1,4 +1,3 @@
-import itertools
 import math
 def sieve_of_eratosthenes(n):
     ceil = math.ceil(math.pow(n, 1/3)) +1
@@ -16,12 +15,20 @@ def sieve_of_eratosthenes(n):
         if p:
             ans.append(i)
     return ans
+
 N = int(input())
 
 prime = sieve_of_eratosthenes(N)
 #print(prime)
 cnt = 0
-#for p, q in itertools.combinations(prime, 2):
-#    if p*q**3 <= N:
-#        cnt += 1
+
+l = 0
+r = len(prime) - 1
+
+while r > l:
+    while prime[l] * prime[r]**3 > N and r>l:
+        r -= 1
+    cnt += r-l
+    l += 1 
+
 print(cnt)
