@@ -4,4 +4,5 @@
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論やんけ
     - 何言ってるか全く分からん
-    
+- https://atcoder.jp/contests/abc248/tasks/abc248_c
+    - dp(2次元)
