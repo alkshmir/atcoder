@@ -11,3 +11,4 @@
     - `dp[i][j][k] == -1`の時に`continue`するのがなぜなのかいまだに分からない
 - https://atcoder.jp/contests/abc240/tasks/abc240_c
     - dp
+- https://atcoder.jp/contests/arc148/tasks/arc148_a
