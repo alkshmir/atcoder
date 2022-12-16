@@ -12,3 +12,5 @@
 - https://atcoder.jp/contests/abc240/tasks/abc240_c
     - dp
 - https://atcoder.jp/contests/arc148/tasks/arc148_a
+- https://atcoder.jp/contests/abc243/tasks/abc243_d
+    - 桁がデカすぎるので定数倍の高速化が必要
