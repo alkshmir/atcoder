@@ -16,3 +16,6 @@
     - 桁がデカすぎるので定数倍の高速化が必要
 - https://atcoder.jp/contests/abc233/tasks/abc233_d
     - 何言ってるか分からん、連想配列は何がkeyで何がvalue?
+- https://atcoder.jp/contests/abc231/tasks/abc231_d
+    - 閉路(ループ)検出
+    - Union-FindまたはDFS
