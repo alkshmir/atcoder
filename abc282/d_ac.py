@@ -28,7 +28,7 @@ color = dict()
 renketsu = 0 # 連結成分の個数
 zero = False
 cnt = N*(N-1) // 2 - M
-color[0] = True
+
 for i in range(N):
     if visited[i]:
         continue
