@@ -1,5 +1,7 @@
 from collections import defaultdict
+from typing import List
 import sys
+sys.setrecursionlimit(2000000)
 class UnionFind:
     def __init__(self, n):
         # 要素数を記録する
@@ -51,57 +53,79 @@ class UnionFind:
     def same_component(self, x, y):
         return self.find(x) == self.find(y)
 
-    # 異なる連結成分の根を列挙する関数
-    def find_roots(self) -> list[int]:
+    # 異なる連結成分の根と含まれる頂点を列挙する関数
+    def find_roots(self) -> List[int]:
         # 各頂点を探索する。
-        roots = set()
+        roots = dict()
         for u in range(self.n):
             # uが属する集合の親を探す。
             p = uf.find(u)
             # 親が見つかったら、その親を根とする連結成分にuを追加する。
-            roots.add(p)
+            if p in roots.keys():
+                roots[p].append(u)
+            else:
+                roots[p] = [u]
         return roots
 
-# 二部グラフ判定関数
-def is_bipartite(uf: UnionFind, edges: list[tuple[int, int]]) -> bool:
-    # 各辺を探索する。
-    for u, v in edges:
-        # uとvが同じ集合に属する場合は、このグラフは二部グラフではない。
-        if uf.find(u) == uf.find(v):
-            return False
-        # uとvが異なる集合に属する場合は、uとvを同じ集合に結合する。
+# 二部グラフ判定
+def dfs(v) -> bool:
+    visited[v] = True
+    for dest in nxt[v]:
+        if not visited[dest]:
+            color[dest] = not color[v]
+            if not dfs(dest):
+                return False
         else:
-            uf.union(u, v)
-
-    # 全ての辺を探索したら、終了する。このとき、グラフは二部グラフである。
+            if color[dest] == color[v]:
+                return False
     return True
-
-
 
 N, M = [int(s) for s in input().split()]
 node = defaultdict(list)
-edges = []
+
 uf = UnionFind(N)
 for _ in range(M):
     u, v = [int(s) for s in input().split()]
     node[u].append(v)
     node[v].append(u)
-    edges.append((u-1, v-1))
     uf.union(u-1, v-1)
 
-visited = defaultdict(bool)
-color = dict()
+#print(node)
 
 roots = uf.find_roots()
+cnt = N*(N-1) // 2 - M
+zero = False
+# 各連結成分で二部グラフかどうかを確かめる
+for root, subnodes in roots.items():
 
-for root in roots:
-    
-if len(roots) == 1:
-    b = is_bipartite(N, edges)
-    if b:
-        print(N*(N-1)//2 - )
-elif len(roots) == 2:
-    pass
-else:
+    nxt = defaultdict(list)
+    for n in subnodes:
+        for m in node[n+1]:
+            nxt[n].append(m-1)
+    #print(root, subnodes)
+
+    # 各連結成分で、2色に塗られた頂点の数を求める(dfsで)
+    visited = defaultdict(bool)
+    color = dict()
+    color[subnodes[0]] = True
+    b = dfs(subnodes[0])
+    # 二部グラフではない場合、答えは0
+    if not b:
+        zero = True
+        break
+    #print(color)
+    # 黒に塗られている頂点の数
+    black = 0
+    white = 0
+    for k, v in color.items():
+        if v:
+            black += 1
+        else:
+            white += 1
+    cnt -= black*(black-1)//2
+    cnt -= white*(white-1)//2
+
+if zero:
     print(0)
-
+else:
+    print(cnt)

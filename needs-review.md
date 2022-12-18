@@ -19,3 +19,5 @@
 - https://atcoder.jp/contests/abc231/tasks/abc231_d
     - 閉路(ループ)検出
     - Union-FindまたはDFS
+- https://atcoder.jp/contests/abc282/tasks/abc282_d
+    - 各連結成分ごとに二部グラフ判定をやる
