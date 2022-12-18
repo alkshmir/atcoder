@@ -34,12 +34,13 @@ for i in range(N):
         continue
     color = dict()
     color[i] = True
+    # 各連結成分で二部グラフかどうかを確かめる
     if not dfs(i):
         zero = True
         break
     renketsu += 1
 
-    # 各連結成分で二部グラフかどうかを確かめる
+    
     # 黒に塗られている頂点の数
     black = 0
     white = 0
