@@ -31,3 +31,5 @@
     - 桁がデカすぎるので定数倍の高速化が必要
 - https://atcoder.jp/contests/abc233/tasks/abc233_d
     - 何言ってるか分からん、連想配列は何がkeyで何がvalue?
+- https://atcoder.jp/contests/abc227/tasks/abc227_c
+    - 普通に全探索だけど、math.powを使うと誤差でバグるので条件を工夫する
