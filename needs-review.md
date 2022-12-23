@@ -21,7 +21,9 @@
     - Union-FindまたはDFS
 - https://atcoder.jp/contests/abc282/tasks/abc282_d
     - 各連結成分ごとに二部グラフ判定をやる
-
+- https://atcoder.jp/contests/abc272/tasks/abc272_d
+    - BFS
+    - DFSしか実装できず解けなかった
 ## 数学
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論
