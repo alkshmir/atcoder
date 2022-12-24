@@ -25,6 +25,8 @@
 - https://atcoder.jp/contests/abc272/tasks/abc272_d
     - BFS
     - DFSしか実装できず解けなかった
+- https://atcoder.jp/contests/abc204/tasks/abc204_c
+    - 強連結成分分解しないと解けないと思ってたけど、制約をよく考えると普通に始点を全探索してDFSしても解ける
 ## 数学
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論
