@@ -15,9 +15,11 @@
     - dp
 - https://atcoder.jp/contests/abc211/tasks/abc211_c
 - https://atcoder.jp/contests/abc267/tasks/abc267_d
+### 組み合わせ全列挙系
 - https://atcoder.jp/contests/abc220/tasks/abc220_c
-    - 組み合わせ全列挙系
     - 解けたけど一応
+- https://atcoder.jp/contests/abc222/tasks/abc222_d
+    - 解けた
 
 ## Graph
 - https://atcoder.jp/contests/abc231/tasks/abc231_d
