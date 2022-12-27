@@ -46,3 +46,5 @@
     - 普通に全探索だけど、math.powを使うと誤差でバグるので条件を工夫する
 - https://atcoder.jp/contests/abc252/tasks/abc252_d
     - 解き方いろいろある
+- https://atcoder.jp/contests/abc278/tasks/abc278_e
+    - 二次元累積和
