@@ -48,3 +48,5 @@
     - 解き方いろいろある
 - https://atcoder.jp/contests/abc278/tasks/abc278_e
     - 二次元累積和
+- https://atcoder.jp/contests/abc238/tasks/abc238_d
+    - XORと足し算の関係
