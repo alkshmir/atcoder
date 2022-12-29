@@ -38,10 +38,13 @@
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論
     - 何言ってるか全く分からん
+## 桁がデカすぎる時の定数倍高速化
+- https://atcoder.jp/contests/abc243/tasks/abc243_d
+- https://atcoder.jp/contests/abc233/tasks/abc233_e
+    - できたけど一応
 ## その他
 - https://atcoder.jp/contests/arc148/tasks/arc148_a
-- https://atcoder.jp/contests/abc243/tasks/abc243_d
-    - 桁がデカすぎるので定数倍の高速化が必要
+
 - https://atcoder.jp/contests/abc233/tasks/abc233_d
     - 何言ってるか分からん、連想配列は何がkeyで何がvalue?
 - https://atcoder.jp/contests/abc227/tasks/abc227_c
