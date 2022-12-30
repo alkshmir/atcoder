@@ -57,3 +57,5 @@
     - XORと足し算の関係
 - https://atcoder.jp/contests/abc230/tasks/abc230_d
     - 区間スケジューリング問題
+- https://atcoder.jp/contests/abc221/tasks/abc221_d
+    - いもす法の応用(時系列シミュレーションの代わりにイベントの起こる時刻をソートする)
