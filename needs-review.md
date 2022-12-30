@@ -62,3 +62,5 @@
     - 区間スケジューリング問題
 - https://atcoder.jp/contests/abc221/tasks/abc221_d
     - いもす法の応用(時系列シミュレーションの代わりにイベントの起こる時刻をソートする)
+- https://atcoder.jp/contests/abc217/tasks/abc217_e
+    - ソート済みの部分と未ソート部分に分ける
