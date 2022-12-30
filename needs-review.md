@@ -55,3 +55,5 @@
     - 二次元累積和
 - https://atcoder.jp/contests/abc238/tasks/abc238_d
     - XORと足し算の関係
+- https://atcoder.jp/contests/abc230/tasks/abc230_d
+    - 区間スケジューリング問題
