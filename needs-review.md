@@ -34,6 +34,9 @@
     - 強連結成分分解しないと解けないと思ってたけど、制約をよく考えると普通に始点を全探索してDFSしても解ける
 - https://atcoder.jp/contests/abc235/tasks/abc235_d
     - BFS
+- https://atcoder.jp/contests/abc213/tasks/abc213_d
+    - DFSだが小さい番号の都市順に訪問しなければいけないのでpythonではできない、と思ったけどソートすればいいだけだわ
+    - 訪問順の記録(オイラーツアー)
 ## 数学
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論
