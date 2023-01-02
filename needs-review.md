@@ -37,6 +37,8 @@
 - https://atcoder.jp/contests/abc213/tasks/abc213_d
     - DFSだが小さい番号の都市順に訪問しなければいけないのでpythonではできない、と思ったけどソートすればいいだけだわ
     - 訪問順の記録(オイラーツアー)
+- https://atcoder.jp/contests/abc211/tasks/abc211_d
+    - Dijkstraの単純版
 ## 数学
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論
