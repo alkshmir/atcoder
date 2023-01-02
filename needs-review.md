@@ -39,6 +39,10 @@
     - 訪問順の記録(オイラーツアー)
 - https://atcoder.jp/contests/abc211/tasks/abc211_d
     - Dijkstraの単純版
+- https://atcoder.jp/contests/abc209/tasks/abc209_d
+    - N個の頂点とN-1本の辺があり、連結であるということは、木である
+    - 木は2部グラフである
+    - 示唆に富んだ良い問題だった
 ## 数学
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論
