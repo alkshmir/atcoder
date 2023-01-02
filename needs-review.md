@@ -43,6 +43,9 @@
     - N個の頂点とN-1本の辺があり、連結であるということは、木である
     - 木は2部グラフである
     - 示唆に富んだ良い問題だった
+- https://atcoder.jp/contests/abc206/tasks/abc206_d
+    - 解けたけど
+    - グラフの問題に帰着できれば9割解けたようなものだが
 ## 数学
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論
