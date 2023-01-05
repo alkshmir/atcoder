@@ -80,3 +80,5 @@
     - ソート済みの部分と未ソート部分に分ける
 - https://atcoder.jp/contests/abc202/tasks/abc202_d
     - 辞書順
+- https://atcoder.jp/contests/abc199/tasks/abc199_c
+    - これできんかったん悔しい
