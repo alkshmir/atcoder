@@ -55,6 +55,9 @@
 - https://atcoder.jp/contests/abc230/tasks/abc230_e
     - 約数列挙の要領でO(N^(1/2))になるんだろうなとまでは気づいたけど
     - N/iをxy=Nの双曲線と関連づけられるかどうかな気がしてきた
+- https://atcoder.jp/contests/abc193/tasks/abc193_d
+    - 場合の数数え上げ
+    - 何言ってるかわからねえぜ
 ## 桁がデカすぎる時の定数倍高速化
 - https://atcoder.jp/contests/abc243/tasks/abc243_d
 - https://atcoder.jp/contests/abc233/tasks/abc233_e
