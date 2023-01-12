@@ -82,3 +82,5 @@
     - 辞書順
 - https://atcoder.jp/contests/abc199/tasks/abc199_c
     - これできんかったん悔しい
+- https://atcoder.jp/contests/abc195/tasks/abc195_b
+    - また茶Diffの解けない問題…
