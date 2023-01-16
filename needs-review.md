@@ -62,6 +62,7 @@
 - https://atcoder.jp/contests/abc243/tasks/abc243_d
 - https://atcoder.jp/contests/abc233/tasks/abc233_e
     - できたけど一応
+- https://atcoder.jp/contests/arc149/tasks/arc149_a
 ## その他
 - https://atcoder.jp/contests/arc148/tasks/arc148_a
 
