@@ -58,6 +58,8 @@
 - https://atcoder.jp/contests/abc193/tasks/abc193_d
     - 場合の数数え上げ
     - 何言ってるかわからねえぜ
+- https://atcoder.jp/contests/arc154/tasks/arc154_a
+    - 灰色らしいけど解説読んでも何もわからない
 ## 桁がデカすぎる時の定数倍高速化
 - https://atcoder.jp/contests/abc243/tasks/abc243_d
 - https://atcoder.jp/contests/abc233/tasks/abc233_e
@@ -91,3 +93,4 @@
 - https://atcoder.jp/contests/arc153/tasks/arc153_b
     - 二次元なので間に合わないと思いきや、一次元ごとに解ける
 - https://atcoder.jp/contests/abc287/tasks/abc287_d
+- https://atcoder.jp/contests/arc150/tasks/arc150_a
