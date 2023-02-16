@@ -94,3 +94,4 @@
     - 二次元なので間に合わないと思いきや、一次元ごとに解ける
 - https://atcoder.jp/contests/abc287/tasks/abc287_d
 - https://atcoder.jp/contests/arc150/tasks/arc150_a
+- https://atcoder.jp/contests/arc150/tasks/arc145_a
