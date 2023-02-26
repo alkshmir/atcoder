@@ -17,6 +17,9 @@
 - https://atcoder.jp/contests/abc267/tasks/abc267_d
 - https://atcoder.jp/contests/abc204/tasks/abc204_d
     - 部分和
+- https://atcoder.jp/contests/abc291/tasks/abc291_d
+    - 解けたけど時間かけすぎ
+    - 巨大な場合の数(の剰余)を求める問題は途中までの場合の数を足していくと解けるかもしれない
 ### 組み合わせ全列挙系
 - https://atcoder.jp/contests/abc220/tasks/abc220_c
     - 解けたけど一応
