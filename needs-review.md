@@ -65,6 +65,9 @@
     - 何言ってるかわからねえぜ
 - https://atcoder.jp/contests/arc154/tasks/arc154_a
     - 灰色らしいけど解説読んでも何もわからない
+- https://atcoder.jp/contests/abc293/tasks/abc293_e
+    - 漸化式から行列演算に帰着する
+    - 繰り返し２乗法
 ## 桁がデカすぎる時の定数倍高速化
 - https://atcoder.jp/contests/abc243/tasks/abc243_d
 - https://atcoder.jp/contests/abc233/tasks/abc233_e
