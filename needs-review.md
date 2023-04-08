@@ -53,6 +53,9 @@
     - グラフの問題に帰着できれば9割解けたようなものだが
 - https://atcoder.jp/contests/abc291/tasks/abc291_e
     - トポロジカルソート
+- https://atcoder.jp/contests/arc159/tasks/arc159_a
+    - BFS
+    - 自分自身への最短距離を初期化しない
 ## 数学
 - https://atcoder.jp/contests/abc280/tasks/abc280_d
     - 数学、というか整数論
